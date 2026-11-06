@@ -1,9 +1,13 @@
+# Team Gun Game
+
+**▶ 바로 플레이: https://newpy15.github.io/gun-game/**
+
 # 로블록스 PvP 총게임 (무기 4종)
 
-> 웹 브라우저 버전은 `web/index.html` 입니다 (아래 "웹 버전" 참고). 로블록스 설치 안내는 그대로 아래에 있어요.
+> 웹 브라우저 버전은 `index.html` 입니다 (아래 "웹 버전" 참고). 로블록스 설치 안내는 그대로 아래에 있어요.
 
 ## 웹 버전 (web/index.html)
-- 설치 없이 `web/index.html`을 더블클릭해서 크롬/엣지로 열면 됩니다 (인터넷 연결 필요: three.js를 CDN에서 불러옴)
+- 설치 없이 `index.html`을 더블클릭해서 크롬/엣지로 열면 됩니다 (인터넷 연결 필요: three.js를 CDN에서 불러옴)
 - 1인칭 3D 팀 데스매치: RED(나 + 봇 3) vs BLUE(봇 4), 20킬 먼저 달성하면 승리
 - 조작: WASD 이동, Shift 달리기, C 앉기(꾹), Space 점프, 좌클릭 발사, 우클릭 조준(줌), R 재장전, 1~4/휠 무기 교체, Tab 점수판, Esc 일시정지, [ ] 감도
 - FPS 요소: 마우스 고정, 가속/감속 이동, 조준 줌(스나이퍼 스코프), 탄퍼짐(이동/점프/연사/조준에 따라 변하고 조준선이 벌어짐),
@@ -16,9 +20,9 @@
 ## 설치 방법 (Roblox Studio)
 1. Roblox Studio → Baseplate 템플릿으로 새 프로젝트 열기
 2. **ServerScriptService** 우클릭 → Insert Object → **Script**, 이름 `GunServer`
-   → `ServerScriptService_GunServer.server.lua` 내용 붙여넣기
+   → `roblox/ServerScriptService_GunServer.server.lua` 내용 붙여넣기
 3. **StarterPlayer > StarterPlayerScripts** 우클릭 → Insert Object → **LocalScript**, 이름 `GunClient`
-   → `StarterPlayerScripts_GunClient.client.lua` 내용 붙여넣기
+   → `roblox/StarterPlayerScripts_GunClient.client.lua` 내용 붙여넣기
 4. Play(F5)로 테스트. Test 탭 → Clients and Servers에서 2명 이상으로 PvP 확인
 
 ## 조작
